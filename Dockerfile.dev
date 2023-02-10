@@ -16,6 +16,7 @@ RUN npm install
 # ignore the .dockerignore file
 COPY . .
 
+# create a volume for the source code
 VOLUME ./src ./src
 
 # build app for production with minification
