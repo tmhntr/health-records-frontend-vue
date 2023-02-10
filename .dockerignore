@@ -1,0 +1,12 @@
+# .dockerignore
+
+# Ignore all files and directories
+[builder]
+Dockerfile
+node_modules
+# nginx
+
+# Ignore all files and directories starting with a dot
+# .*
+
+
