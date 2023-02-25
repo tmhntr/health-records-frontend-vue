@@ -21,11 +21,13 @@ RUN npm run build
 
 FROM nginx as production-build
 LABEL "dev.timhunter.health.vendor"="Tim Hunter"
-LABEL dev.timhunter.health.label-with-value="foo"
 LABEL version="1.0"
 LABEL description="Frontend of the health app"
+LABEL maintainer="Tim Hunter <thunte27@uwo.ca>"
+LABEL "dev.timhunter.health.release-date"="2021-03-01"
 
 ENV NGINX_API_URL https://timhunter.dev/api
+
 
 # COPY ./nginx.conf /etc/nginx/nginx.conf
 
