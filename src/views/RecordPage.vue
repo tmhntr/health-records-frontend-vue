@@ -1,5 +1,6 @@
 <script setup lang="ts">
 import { getRecord } from "@/utils";
+import { defineProps } from "vue";
 
 const props = defineProps<{
     id: number;

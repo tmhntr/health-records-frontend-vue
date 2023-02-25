@@ -1,6 +1,6 @@
 <script setup lang="ts">
 import RecordForm from "@/components/RecordForm.vue";
-import { ref } from "vue";
+import { ref, defineProps } from "vue";
 import { createRecord, updateRecord, getRecord } from "@/utils";
 import { HealthRecord } from "@/types";
 // props are all the attributes that are passed

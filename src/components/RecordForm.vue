@@ -1,6 +1,6 @@
 <script setup lang="ts">
 import { HealthRecord } from "@/types";
-import { ref } from "vue";
+import { ref, defineProps } from "vue";
 import { healthRecordTypes } from "@/types";
 import { useRouter } from "vue-router";
 
