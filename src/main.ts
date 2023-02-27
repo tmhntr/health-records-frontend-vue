@@ -32,10 +32,10 @@ app.use(Inkline, {
 
 app.use(
     createAuth0({
-        domain: "dev-mx-lf095.us.auth0.com",
-        clientId: "Z5B00xA7x09fbsyicDKmZMSPGVikiRGQ",
+        domain: process.env.VUE_APP_AUTH0_DOMAIN,
+        clientId: process.env.VUE_APP_AUTH0_CLIENT_ID,
         authorizationParams: {
-            redirect_uri: window.location.origin,
+            redirect_uri: process.env.VUE_APP_AUTH0_REDIRECT_URI,
         },
     })
 );
