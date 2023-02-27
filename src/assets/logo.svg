@@ -33,14 +33,14 @@
      inkscape:pagecheckerboard="0"
      showgrid="false"
      inkscape:zoom="0.70214844"
-     inkscape:cx="923.59388"
-     inkscape:cy="173.04033"
+     inkscape:cx="600.30042"
+     inkscape:cy="190.13074"
      inkscape:window-width="1792"
      inkscape:window-height="1067"
      inkscape:window-x="0"
      inkscape:window-y="25"
      inkscape:window-maximized="1"
-     inkscape:current-layer="svg826"
+     inkscape:current-layer="layer1"
      fit-margin-top="32"
      lock-margins="false"
      fit-margin-right="32"
@@ -48,23 +48,34 @@
      fit-margin-left="32"
      inkscape:snap-bbox="true" />
   <!--! Font Awesome Pro 6.3.0 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license (Commercial License) Copyright 2023 Fonticons, Inc. -->
-  <path
-     d="M 128,352 V 96.000007 c 0,-35.3 28.7,-64 64,-64 h 256 c 35.3,0 64,28.7 64,64 V 293.5 c 0,17 -6.7,33.3 -18.7,45.3 l -58.5,58.5 c -12,12 -28.3,18.7 -45.3,18.7 H 192 c -35.3,0 -64,-28.7 -64,-64 z M 304,128 c -8.8,0 -16,7.2 -16,16 v 48 h -48 c -8.8,0 -16,7.2 -16,16 v 32 c 0,8.8 7.2,16 16,16 h 48 v 48 c 0,8.8 7.2,16 16,16 h 32 c 8.8,0 16,-7.2 16,-16 v -48 h 48 c 8.8,0 16,-7.2 16,-16 v -32 c 0,-8.8 -7.2,-16 -16,-16 h -48 v -48 c 0,-8.8 -7.2,-16 -16,-16 z m 24,336 c 13.3,0 24,10.7 24,24 0,13.3 -10.7,24 -24,24 H 168 C 92.9,512 32,451.1 32,376 V 152 c 0,-13.3 10.7,-24 24,-24 13.3,0 24,10.7 24,24 v 224 c 0,48.6 39.4,88 88,88 z"
-     id="path824" />
-  <text
-     xml:space="preserve"
-     style="font-size:518.208px;line-height:1;font-family:Arial;-inkscape-font-specification:Arial;stroke-width:1"
-     x="537.53925"
-     y="402.94382"
-     id="text1484"><tspan
-       sodipodi:role="line"
-       id="tspan1482"
-       x="537.53925"
-       y="402.94382"
-       style="font-size:518.208px;stroke-width:1">MyHealth</tspan></text>
   <text
      xml:space="preserve"
      id="text4780"
      style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:16px;line-height:1;font-family:'System Font';-inkscape-font-specification:'System Font';white-space:pre;shape-inside:url(#rect4782)"
      transform="translate(32)" />
+  <g
+     inkscape:groupmode="layer"
+     id="layer1"
+     inkscape:label="main">
+    <path
+       d="M 128,352 V 96.000007 c 0,-35.3 28.7,-64 64,-64 h 256 c 35.3,0 64,28.7 64,64 V 293.5 c 0,17 -6.7,33.3 -18.7,45.3 l -58.5,58.5 c -12,12 -28.3,18.7 -45.3,18.7 H 192 c -35.3,0 -64,-28.7 -64,-64 z M 304,128 c -8.8,0 -16,7.2 -16,16 v 48 h -48 c -8.8,0 -16,7.2 -16,16 v 32 c 0,8.8 7.2,16 16,16 h 48 v 48 c 0,8.8 7.2,16 16,16 h 32 c 8.8,0 16,-7.2 16,-16 v -48 h 48 c 8.8,0 16,-7.2 16,-16 v -32 c 0,-8.8 -7.2,-16 -16,-16 h -48 v -48 c 0,-8.8 -7.2,-16 -16,-16 z m 24,336 c 13.3,0 24,10.7 24,24 0,13.3 -10.7,24 -24,24 H 168 C 92.9,512 32,451.1 32,376 V 152 c 0,-13.3 10.7,-24 24,-24 13.3,0 24,10.7 24,24 v 224 c 0,48.6 39.4,88 88,88 z"
+       id="path824"
+       inkscape:export-filename="/Users/timhunter/Development/Projects/health-records-frontend-vue/public/logo.png"
+       inkscape:export-xdpi="39.999973"
+       inkscape:export-ydpi="39.999973" />
+    <text
+       xml:space="preserve"
+       style="font-size:518.208px;line-height:1;font-family:Arial;-inkscape-font-specification:Arial;stroke-width:1"
+       x="537.53925"
+       y="402.94382"
+       id="text1484"
+       inkscape:export-filename="/Users/timhunter/Development/Projects/health-records-frontend-vue/public/logo.png"
+       inkscape:export-xdpi="39.999973"
+       inkscape:export-ydpi="39.999973"><tspan
+         sodipodi:role="line"
+         id="tspan1482"
+         x="537.53925"
+         y="402.94382"
+         style="font-size:518.208px;stroke-width:1">MyHealth</tspan></text>
+  </g>
 </svg>
