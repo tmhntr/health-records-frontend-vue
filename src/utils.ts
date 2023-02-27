@@ -1,6 +1,6 @@
 import { HealthRecord, UserData } from "./types";
 
-export const API_URL = "http://health.timhunter.dev/api";
+export const API_URL = "https://health.timhunter.dev/api";
 
 export async function getRecords(
     limit?: number,
