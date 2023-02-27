@@ -16,15 +16,20 @@ RUN npm install
 # ignore the .dockerignore file
 COPY . .
 
+ARG VUE_APP_AUTH0_DOMAIN
+ENV VUE_APP_AUTH0_DOMAIN=${VUE_APP_AUTH0_DOMAIN:-dev-mx-lf095.us.auth0.com}
+
+ARG VUE_APP_AUTH0_CLIENT_ID
+ENV VUE_APP_AUTH0_CLIENT_ID=${VUE_APP_AUTH0_CLIENT_ID:-Z5B00xA7x09fbsyicDKmZMSPGVikiRGQ}
+
+ARG VUE_APP_AUTH0_REDIRECT_URI
+ENV VUE_APP_AUTH0_REDIRECT_URI=${VUE_APP_AUTH0_REDIRECT_URI:-https://health.timhunter.dev}
+
 # build app for production with minification
 RUN npm run build
 
 FROM nginx as production-build
-LABEL "dev.timhunter.health.vendor"="Tim Hunter"
-LABEL version="1.0"
 LABEL description="Frontend of the health app"
-LABEL maintainer="Tim Hunter <thunte27@uwo.ca>"
-LABEL "dev.timhunter.health.release-date"="2021-03-01"
 
 ENV NGINX_API_URL https://timhunter.dev/api
 
