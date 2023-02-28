@@ -2,10 +2,19 @@
 import { store } from "@/store";
 import { logout } from "@/utils";
 import { useRouter } from "vue-router";
-import { useAuth0 } from "@auth0/auth0-vue";
+import { PopupLoginOptions, useAuth0 } from "@auth0/auth0-vue";
 
 const router = useRouter();
-const { isAuthenticated, loginWithRedirect, logout: auth0Logout } = useAuth0();
+const { isAuthenticated, logout: auth0Logout, loginWithPopup } = useAuth0();
+
+const login = () => {
+    const options: PopupLoginOptions = {
+        authorizationParams: {
+            scope: "openid profile email",
+        },
+    };
+    loginWithPopup(options);
+};
 
 const on_click_logo = () => {
     router.push("/");
@@ -21,8 +30,8 @@ const on_click_logo = () => {
         <i-button
             v-if="!isAuthenticated"
             type="primary"
-            @click="loginWithRedirect"
-            class="_.color-blue"
+            @click="loginWithPopup"
+            class="_.color-primary"
         >
             Login
         </i-button>

@@ -36,6 +36,7 @@ app.use(
         clientId: process.env.VUE_APP_AUTH0_CLIENT_ID,
         authorizationParams: {
             redirect_uri: process.env.VUE_APP_AUTH0_REDIRECT_URI,
+            audience: "https://health.timhunter.dev/api",
         },
     })
 );
